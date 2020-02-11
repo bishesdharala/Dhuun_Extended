@@ -1,0 +1,179 @@
+*,html,body
+{
+margin:0;
+padding:0;
+}
+header
+{
+background-color:whitesmoke;
+height:400px;
+line-height:15px;
+position:dynamic;
+z-index: 1;
+width: 100%;
+}
+ul
+{
+list-style: none;
+margin-top:400px;
+font-size: 130%;
+}
+ul li
+{
+display:inline-block;
+}
+header nav
+{
+float: right;
+}
+.logo img
+{
+margin-top:-25px;
+position:absolute;
+left:0;
+top:0;   
+}
+header nav ul li a
+{
+padding-right:15px;
+font-weight: bold;
+color:rgb(206, 139, 52);
+text-decoration:none;
+position:relative;
+right:-360;
+top:360; 
+}
+header nav ul li a:hover
+{
+text-decoration:none;
+color:rgb(22, 212, 165);  
+}
+header nav p
+{
+color:rgb(7, 85, 68);
+font-style: bold;
+font-family: gabriola;
+position:relative;
+top:40;
+right:645;
+}
+.img1
+{
+background-image:linear-gradient(rgba(110, 126, 90, 0.4),rgba(57, 67, 85, 0.8)),url(..//images/pink4.jpg);
+background-size: 100% 100%;
+}
+.slider,.slider ul,.slider ul li
+{
+height: 650px;
+width: 100%;
+color:rgb(209, 75, 75);
+text-align:center;
+
+}
+.slider h1
+{
+font-weight: bold;
+margin-top: 280;
+}
+.slider span{
+color:rgb(219, 137, 82);
+}
+.slider a
+{
+padding: 10px 40px;
+}
+.slider a.btn-half
+{
+background-color: rgb(102, 228, 123);
+color:rgb(31, 27, 21);
+}
+.slider a.btn-full
+{
+background-color: rgb(16, 204, 204);
+color:rgb(32, 30, 25)
+}
+.slider,.slider ul,.slider ul li i      
+{
+color:rgb(86, 164, 216);
+}
+.slider ul p
+{
+color:rgb(236, 252, 11);
+
+}
+.slider,.slider ul,.slider ul li,.slider ul li p
+{
+font-style: bold;
+}
+.img2
+{
+background-image: linear-gradient(rgba(213, 245, 176, 0.4),rgba(150, 182, 240, 0.8)),url(..//images/back10.jpg);
+background-size: 100% 100%;
+}
+.img3
+{
+background-image: linear-gradient(rgba(48, 54, 40, 0.4),rgba(48, 59, 78, 0.8)),url(..//images/back16.jpg);
+background-size: 100% 100%;
+}
+.slider i
+{
+font-size: 32px;
+margin-right: 15px;
+}
+.slider a.btn-half:hover
+{
+opacity:0.8;
+transition: 0.s ease-out;
+}
+.slider a.btn-full:hover
+{
+opacity:0.8;
+transition: 0.3s ease-out;
+}
+.team-area
+{
+    padding:100px 20px;
+    font-style:bold;
+}
+.team-area p
+{
+    font-size: 17px;
+}
+.team-area .sub-heading
+{
+    margin-bottom :100px;
+
+}
+.team-man
+{
+    position: absolute;
+    left:240;
+    margin-left:-10px;
+    top:-40px;
+    overflow:hidden;
+    font-style:bold;
+}
+
+.sub-menu{
+    display:none;
+}
+body header .container .row nav ul:hover .sub-menu
+{
+    display:block;
+    position:absolute;
+   
+body header .container .row nav ul:hover .sub-menu ul
+{
+    display:block;
+    margin:10px;
+}
+body header .container .row nav ul:hover .sub-menu ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted rgb(252, 252, 252);
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+   
+}

@@ -1,0 +1,15 @@
+header .greet
+{
+    font-style:bold;
+    position:relative;
+    right:40;
+    top:900;
+    color:rgb(145, 8, 8);
+}
+
+body
+{
+    background:url('images/backk.jpg');
+    background-size:cover;
+    font-family:arial;
+}

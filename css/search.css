@@ -1,0 +1,13 @@
+*,html,body {
+    margin:0;
+    padding:0;
+   
+}
+
+body {
+    background-image: url(..//images/heath.jpg);
+background-size: cover;
+position:relative;
+left:300;
+top:600;
+}
