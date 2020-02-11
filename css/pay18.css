@@ -22,7 +22,7 @@ img{max-width:100%;}
 /*end reset*/
 /****-----start-body----****/
 body{
-	background:url("../images/bg.jpg") no-repeat 0px 0px;
+	background:url("../images/money.png") no-repeat 0px 0px;
   background-size:cover;
   -o-background-size:cover;
   -moz-background-size:cover;
@@ -32,7 +32,7 @@ body{
 }
 .main h1{
   font-size:3em;
-  color: #fff;
+  color: rgb(241, 234, 168);
   padding: 1.5em 0;
   text-align: center;
   font-family: 'Lora', serif;
@@ -52,7 +52,7 @@ body a,form li,.submit input[type="submit"],form li.second,ul.age-groups li labe
 }
 .facts{
   padding: 4% 4% 5% 4%;
-  background: #eb5242;
+  background: #4d9cca;
 }
 .top1{
   margin-top: 2%;
@@ -75,7 +75,7 @@ i.resp-tab-item.lost {
   border:none;
   color: #fff;
   font-size: 1em;
-   background:#ba3627; 
+   background:#59d2d6; 
   text-transform: uppercase;
   cursor: pointer;
   padding:1.3em 0;
@@ -100,7 +100,7 @@ i.resp-tab-item.lost {
 }
 
 .resp-tab-active {
-   background:#eb5242;
+   background:#31a05f;
   text-shadow: none;
   color:#fff;
 }
@@ -132,7 +132,7 @@ span.tab-img img {
   border: 3px solid rgba(213, 210, 210, 0.6);
 }
 h2.resp-accordion:hover{
-  background:#FE2232;
+  background:rgb(194, 127, 211);
   text-shadow: none;
   color: #FFF;
 }
@@ -185,7 +185,7 @@ span.tab-img{
   margin-right: 10px;
 }
 .post-meta a:hover{
-  color:red;
+  color:rgb(202, 145, 199);
 }
 .tab-left{
   margin-bottom:5%;
@@ -221,7 +221,7 @@ li.resp-tab-item.lost{
   }
   .sign-up input[type="reset"] {
   float: left;
-  background: #A12112;
+  background: rgb(236, 171, 30);
   padding: 0.8em 1.4em;
   color: #fff;
   font-weight: 400;
@@ -244,7 +244,7 @@ li.resp-tab-item.lost{
 
 .sign-up input[type="submit"] {
   float: right;
-  background:#A12112;
+  background:rgb(240, 169, 17);
   padding: 0.8em 1.5em;
   color: #fff;
   font-weight: 400;
@@ -410,7 +410,7 @@ li.resp-tab-item.lost{
   outline: none;
   padding: 0.8em 2em;
   border: none;
-  background: #BA3627;
+  background: rgb(231, 161, 9);
   font-family: 'Raleway', sans-serif;
 }
 /*----------*/
